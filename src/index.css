@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(-45deg,#F2EEE3,#E901D0,#FAE0BA,#EB8C73,#F0DED1,#DEC4A7);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  
+}
+
+@keyframes gradient{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.modal-header {
+  border: none !important;
+}
+
+.modal-footer {
+  border: none !important;
+}
+
+.icon {
+  width: 23px;
+  height: 23px;
+}
+
+.icon-remove {
+  width: 30px;
+  height: 30px;
+}
+
+.counter-badge {
+  position: absolute;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  padding: 5px 10px;
+  line-height: 18px;
+  top: -8px;
+  right: -8px;
+  font-size: 16px;
+}
